@@ -1,48 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Animation</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<h1>Animation</h1>
-
-<video width="700" controls>
-<source src="videos/animation.mp4" type="video/mp4">
-</video>
-
-<div class="nav-buttons">
-<button onclick="history.back()">⬅ Back</button>
-<button onclick="window.location.href='index.html'">Home</button>
-</div>
-
-</body>
-</html>
-
 <!-- Topic one ------------------------------------------------------------------------------------------------- -->
-    <!-- The First Topic Section -->
-    <section class="topic">
-        <!-- the topic title a big bar with text in it -->
-        <div class="topic-title">
-            <h1>Image Editing</h1>
+<!-- The First Topic Section -->
+<section class="topic">
+
+    <!-- the topic title -->
+    <div class="topic-title">
+        <h1>Image Creation</h1>
+    </div>
+
+    <!-- three column grid -->
+    <div class="topic-content">
+
+        <!-- Image 1 -->
+        <div class="topic-card">
+            <img src="images/spider-pixel-art.jpg" alt="Pixel Art">
+            <h2 class="topic-card-text">Pixel Art</h2>
         </div>
-        <!-- now a three column grid of images -->
-        <div class="topic-content">
-            <!-- one "card" which includes an image with a text below it -->
-            <div class="topic-card">
-                <img src="images/Sipder:placeholder:pixel art.jpg" alt="change this too!">
-                <h2 class="topic-card-text">Pixel Art</h2>
-            </div>
-            <div class="topic-card">
-                <img src="images/placeholder-1024x1024.png" alt="change this too!">
-                <h2 class="topic-card-text">Placeholder image</h2>
-            </div>
-            <div class="topic-card">
-                <img src="images/placeholder-1024x1024.png" alt="change this too!">
-                <h2 class="topic-card-text">Placeholder image</h2>
-            </div>
+
+        <!-- Image 2 -->
+        <div class="topic-card">
+            <img src="images/photo-edit.jpg" alt="Photo Editing">
+            <h2 class="topic-card-text">Photo Editing</h2>
         </div>
-    </section>
+
+        <!-- Video -->
+        <div class="topic-card">
+            <video width="100%" controls>
+                <source src="videos/image-editing.mp4" type="video/mp4">
+            </video>
+            <h2 class="topic-card-text">Image Editing Process</h2>
+        </div>
+
+    </div>
+
+</section>
 <!-- End of topic one------------------------------------------------------------------------------------------ -->
