@@ -79,24 +79,25 @@ img {
     padding: 3em 3em;
 }
 
-/* Navigation Bar */
+/* =========================
+   Navigation Bar
+========================= */
 
-.navbar{
+.navbar {
   background: linear-gradient(to right, #020024, #0a2a66, #000000);
   padding: 12px 0;
 }
 
-/* move menu slightly right like the example */
-.nav-links{
+.nav-links {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-right: 60px;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
-/* buttons */
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
   padding: 10px 18px;
   background-color: #1b3d8f;
@@ -106,13 +107,11 @@ img {
   text-shadow: 1px 1px 2px black;
 }
 
-/* hover effect */
-.nav-links li a:hover{
+.nav-links li a:hover {
   background-color: #4da6ff;
 }
 
-/* active page (like Home button in example) */
-.nav-links li a.active{
+.nav-links li a.active {
   background-color: #6ec1ff;
   color: black;
 }
