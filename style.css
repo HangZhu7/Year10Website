@@ -80,14 +80,6 @@ img {
 }
 
 /* ========================= Navigation Bar ========================= */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #111; /* makes sure your text is visible */
-    color: white;
-}
-
 .navbar {
     background: linear-gradient(to right, #202024, #2a2a66, #000000);
     padding: 15px 0;
@@ -106,16 +98,16 @@ body {
 }
 
 .nav-links a {
+    display: inline-block;   /* <- this ensures the link takes up space */
     text-decoration: none;
-    color: white;      /* normal color */
+    color: white;
     font-size: 16px;
-    padding: 5px 10px; /* optional: makes hover effect more visible */
+    padding: 5px 10px;       /* makes it easier to click and visible */
     border-radius: 5px;
-    transition: background 0.3s, color 0.3s; /* smooth hover transition */
+    transition: background 0.3s, color 0.3s;
 }
 
-/* Hover effect */
 .nav-links a:hover {
-    background-color: #2a2a66; /* dark blue background on hover */
-    color: white;               /* text stays white */
+    background-color: #2a2a66;
+    color: white;             /* text stays visible on hover */
 }
