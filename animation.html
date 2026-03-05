@@ -1,22 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Game Design</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animation</title>
 </head>
 
 <body>
 
-<h1>Animation</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">Hang Zhu Website</div>
+    </section>
 
-<video width="700" controls>
-<source src="videos/animation.mp4" type="video/mp4">
-</video>
+    <!-- Navigation Bar -->
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="image.html">Image Creation</a></li>
+        <li><a href="computerscience.html">Computer Science</a></li>
+        <li><a href="programming.html">Programming</a></li>
+        <li><a href="3d.html">3D Modeling</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="game.html">Game Design</a></li>
+    </ul>
 
-<div class="nav-buttons">
-<button onclick="history.back()">⬅ Back</button>
-<button onclick="window.location.href='index.html'">Home</button>
-</div>
+    <!-- Topic Section: Image Creation -->
+    <section class="topic">
+        <div class="topic-title">
+            <h1>Animation</h1>
+        </div>
+
+        <div class="topic-content">
+            <!-- Image 1 -->
+            <div class="topic-card">
+                <img src="images/spider-pixel-art.jpg" alt="Pixel Art">
+                <h2 class="topic-card-text">Placeholder Image 1</h2>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="topic-card">
+                <img src="images/photo-edit.jpg" alt="Snowflake">
+                <h2 class="topic-card-text">Placeholder Image 2</h2>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="topic-card">
+                <img src="images/placeholder-1024x1024.png" alt="Background Creation">
+                <h2 class="topic-card-text">Placeholder Image 3</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <button onclick="history.back()">⬅ Back</button>
+        <button onclick="window.location.href='index.html'">Home</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 My Showcase Website By Hang Zhu</p>
+    </footer>
 
 </body>
 </html>
