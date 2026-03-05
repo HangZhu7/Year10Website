@@ -79,39 +79,43 @@ img {
     padding: 3em 3em;
 }
 
-/* =========================
-   Navigation Bar
-========================= */
-
-body{
-margin:0;
-font-family:Arial, sans-serif;
-text-align:center;
+/* ========================= Navigation Bar ========================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111; /* makes sure your text is visible */
+    color: white;
 }
 
-.navbar{
-background: linear-gradient(to right, #202024, #2a2a66, #000000);
-padding:15px 0;
-text-align:center;
+.navbar {
+    background: linear-gradient(to right, #202024, #2a2a66, #000000);
+    padding: 15px 0;
+    text-align: center;
 }
 
-.nav-links{
-list-style:none;
-padding:0;
-margin:0;
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.nav-links li{
-display:inline-block;
-margin:0 20px;
+.nav-links li {
+    display: inline-block;
+    margin: 0 20px;
 }
 
-.nav-links a{
-text-decoration:none;
-color:white;
-font-size:16px;
+.nav-links a {
+    text-decoration: none;
+    color: white;      /* normal color */
+    font-size: 16px;
+    padding: 5px 10px; /* optional: makes hover effect more visible */
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s; /* smooth hover transition */
 }
 
-.nav-links a:hover{
-color:#66aaff;
+/* Hover effect */
+.nav-links a:hover {
+    background-color: #2a2a66; /* dark blue background on hover */
+    color: white;               /* text stays white */
 }
