@@ -39,7 +39,7 @@ img {
     color: white;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgba(4, 189, 202, 0.932);
+    background-color: rgba(7, 139, 148, 0.705);
 }
 
 /* Three column grid with a nice big gap */
@@ -55,7 +55,7 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(7, 139, 148, 0.705);
     color: white;
     padding: 1em;
     border-radius: 0.5em;
