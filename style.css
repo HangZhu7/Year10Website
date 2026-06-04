@@ -111,3 +111,11 @@ img {
     background-color: #2a2a66;
     color: white;             /* text stays visible on hover */
 }
+/* Existing CSS above */
+
+/* Video styling */
+.video-demo {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
