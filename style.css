@@ -90,6 +90,10 @@ video {
     background: linear-gradient(to right, #202024, #2a2a66, #000000);
     padding: 15px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .nav-links {
