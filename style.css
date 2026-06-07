@@ -130,6 +130,8 @@ video {
 /* Video styling */
 .video-demo {
     width: 100%;
+    max-width: 1920px;
+    aspect-ratio: 16 / 9;
     height: auto;
     display: block;
 }
