@@ -52,9 +52,9 @@ video {
 .topic-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 6em;
+    gap: 4em;
     /* bring the whole section in off the sides of the page */
-    width: 70%;
+    width: 85%;
     /* top margin of 3em and center right/left */
     margin: 3em auto;
 }
@@ -63,9 +63,18 @@ video {
 .topic-card{
     background-color: rgba(7, 139, 148, 0.705);
     color: white;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 0.5em;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topic-card img {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 1em;
 }
 
 /* Styling for the topic card titles */
