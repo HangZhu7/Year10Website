@@ -5,6 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+      .game-container {
+        position: relative;
+        width: 100%;
+        max-width: 960px;
+        padding-bottom: 56.25%;
+        height: 0;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .game-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
     <title>Game Design</title>
 </head>
 
@@ -52,6 +71,13 @@
                 <img src="images/placeholder-1024x1024.png" alt="change this too!">
                 <h2 class="topic-card-text">Placeholder Image 3</h2>
             </div>
+        </div>
+
+        <div class="game-container">
+            <iframe 
+                src="https://gd.games/games/92093226-1f0c-47df-9153-b54ad4d48ca9" 
+                allowfullscreen>
+            </iframe>
         </div>
     </section>
 
