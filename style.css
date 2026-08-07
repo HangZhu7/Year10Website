@@ -71,7 +71,7 @@ video {
 .topic-card img {
     width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 280px;
     object-fit: cover;
     display: block;
     margin-bottom: 1em;
