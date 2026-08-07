@@ -54,7 +54,7 @@ video {
     grid-template-columns: repeat(3, 1fr);
     gap: 4em;
     /* bring the whole section in off the sides of the page */
-    width: 100%;
+    width: 85%;
     /* top margin of 3em and center right/left */
     margin: 3em auto;
 }
