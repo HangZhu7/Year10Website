@@ -162,7 +162,8 @@ video {
     }
 }
 
-.nabla{
+/* Custom Font */
+.nabla {
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
